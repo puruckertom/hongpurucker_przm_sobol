@@ -1,0 +1,223 @@
+*** Record 1: (A78), TITLE - label for simulation title
+Express     v. 1.03.02    (2007-07-20)
+*** GA CORN; Validation Title of input file  Existing
+***____________
+*** Record 2: (A78), HTITLE - Hydrology Information Title
+"Sparks, GA; Metfile: GA1LEVAP.MET
+***____________
+*** Record 3: (2F8.0,I8,F8.0,2I8,5I4) PFAC,SFAC,IPEIND,ANETD,INICRP,ISCOND
+***PFAC SFAC    IPEIND  ANETD   INICRP  ISCOND     (WDM data sets not used)
+1.00E-000.00E-00       02.50E+01       1       1
+***____________
+*** Record 6: (I8) ERFLAG: Flag to calculate erosion
+       4
+***____________
+*** Record 7: (4F8.0,8X,I8,2F8.0) USLEK,USLELS,USLEP,AFIELD,IREG,SLP,HL
+***USLEKUSLELS  USLEP   AFIELD          IREG    SLP     HL
+1.00E-012.20E-015.20E-010.90E-01               3    1.20  134.00
+***____________
+*** Record 8: (I8) NDC - Number of different crops simulated; FLITNUM
+       1 0
+***____________
+*** Record 9 for Crop 1: (I8,3F8.0,I8,3(1X,I3),2F8.0) ICNCN,CINTCP,AMXDR,COVMAX,ICNAH,(3)CN,WFMAX,HTMAX
+***ICNCNCINTCP  AMXDR   COVMAX  ICNAH    CN1 CN2 CN3WFMAX   HTMAX
+       12.50E-017.10E+018.50E+01       1  77  70  740.00E+001.33E+02
+***____________
+*** Record 9A (2I8): CROPNO,NUSLEC - Crop, Number of USLE C (cover management) factors
+       1       2
+*** Record 9B: (16(I2,I2,1X) GDUSLEC,GMUSLEC for each USLEC
+***M DDMM DDMM DDMM DDMM DDMM DDMM DDMM DDMM DDMM DDMM DDMM DDMM DDMM DDMM DDMM
+0908 0112
+*** Record 9C: (16(F4.0,1X)) - USLEC (USLE Cover management factors)
+.200 .200
+*** Record 9D: (16(F4.0,1X)) - MNGN - Manning's N for each USLEC
+.170 .170
+*** Record 9E: (16(I4,1X)) - CN(II) for each USLEC
+  70   77
+***____________
+*** Record 10: (I8) NCPDS - number of cropping periods
+       2
+***____________
+*** Record(s) 11: (2X,3I2,2X,3I2,3X,3I2,I8) - dates of crop EMergence, MAturation, and HArvest
+*** EMD,EMM,IYREM,MAD,MAM,IYRMAT,HAD,HAM,IYRHAR,INCROP
+***EMerge MAture  HArvest
+***DMMYY  DDMMYY  DDMMYY   Crop No.
+  090892  311092  011292       1
+  090892  311092  011292       1
+***____________
+*** Record 12: (A78) PTITLE - Label for pesticide
+Chemical Input Data:                                                          
+***____________
+*** Record 13: (4I8) NAPS,NCHEM,FRMFLG,DK2FLG
+*** NAPS   NCHEM  FRMFLG  DK2FLG
+      25       1       0       0
+***____________
+*** Record 15: (3A20) Name(s) of pesticides for output titles
+PESTICIDE R-2
+***____________
+*** Record(s) 16: (2X,3I2,I3,3(I2,F5.0,F6.0,F5.0,F5.0)) - application data
+***   including the application date (APD,APM,IAPYR), WINDAY, and (1)(CAM,DEPI,TAPP,APPEFF,DRFT)
+***DMMYYWinCmDepi Tapp  Eff  Drft CmDepi Tapp  Eff  Drft CmDepi Tapp  Eff  Drft
+  130892  0 2  0.0   0.5 0.99 0.00
+  240892  0 2  0.0   0.5 0.99 0.00
+  030992  0 2  0.0   0.5 0.99 0.00
+  140992  0 2  0.0   0.5 0.99 0.00
+  240992  0 2  0.0   0.5 0.99 0.00
+  250992  0 2  0.0   0.5 0.99 0.00
+  260992  0 2  0.0   0.5 0.99 0.00
+  270992  0 2  0.0   0.5 0.99 0.00
+  280992  0 2  0.0   0.5 0.99 0.00
+  290992  0 2  0.0   0.5 0.99 0.00
+  300992  0 2  0.0   0.5 0.99 0.00
+  011092  0 2  0.0   0.5 0.99 0.00
+  021092  0 2  0.0   0.5 0.99 0.00
+  031092  0 2  0.0   0.5 0.99 0.00
+  051092  0 2  0.0   0.5 0.99 0.00
+  061092  0 2  0.0   0.5 0.99 0.00
+  071092  0 2  0.0   0.5 0.99 0.00
+  081092  0 2  0.0   0.5 0.99 0.00
+  091092  0 2  0.0   0.5 0.99 0.00
+  101092  0 2  0.0   0.5 0.99 0.00
+  111092  0 2  0.0   0.5 0.99 0.00
+  121092  0 2  0.0   0.5 0.99 0.00
+  131092  0 2  0.0   0.5 0.99 0.00
+  141092  0 2  0.0   0.5 0.99 0.00
+  151092  0 2  0.0   0.5 0.99 0.00
+***____________
+*** Record 17: (includes data for each chemical) (F8.0,3(I8,F8.0)) FILTRA, (1)(IPSCND,UPTKF)
+***FILT IPSCND1 UPTKF1  IPSCND2 UPTKF2  IPSCND3 UPTKF3
+0.00E+00       31.00E+00
+***____________
+*** Record 18: (3F8.0) PLVKRT,PLDKRT,FEXTRC for PESTICIDE R-2
+0.00E+001.40E-011.00E-01
+***____________
+*** Record 19: (A78) STITLE - label for soil properties
+//Soils Title  --         Series: Kershaw    Txt: Fine Sandy Loam 
+***____________
+*** Record 20: (F8.0,8X,9I4) CORED,BDFLAG,THFLAG,KDFLAG,HSWZT,MOC,IRFLAG,ITFLAG,IDFLAG,BIOFLG
+***CORED (cm)     BD  TH  KD  HS MOC  IR  IT  ID BIO
+3.80E+02           0   0   0   0   0   0   0   0   0
+***____________
+*** Record 26: (9F8.0) (1)DAIR, (1)HENRYK, (1)ENPY
+4.30E+032.00E-062.00E+01
+***____________
+*** Record 33:  (I8) NHORIZ (total number of soil horizons)
+      11
+***____________
+*** Record 34 for Horizon 1: (I8,8F8.0) HORIZN,THKNS,BD,THET0,AD,(1)DISP,ADL
+       11.00E+011.60E+008.90E-020.00E+000.00E+000.00E+00
+***____________
+*** Record 36 for Horizon 1: (8X,9F8.0)  (1)DWRATE,(1)DSRATE,(1)DGRATE
+        8.66E-028.66E-020.00E+00
+***____________
+*** Record 37 for Horizon 1: (8X,7F8.0) DPN,THEFC,THEWP,OC,(1)KDs
+        1.00E-018.90E-024.00E-024.20E-011.76E-01
+***____________
+*** Record 34 for Horizon 2: (I8,8F8.0) HORIZN,THKNS,BD,THET0,AD,(1)DISP,ADL
+       25.00E+001.60E+008.90E-020.00E+000.00E+000.00E+00
+***____________
+*** Record 36 for Horizon 2: (8X,9F8.0)  (1)DWRATE,(1)DSRATE,(1)DGRATE
+        8.66E-028.66E-020.00E+00
+***____________
+*** Record 37 for Horizon 2: (8X,7F8.0) DPN,THEFC,THEWP,OC,(1)KDs
+        1.00E+008.90E-024.00E-024.20E-011.76E-01
+***____________
+*** Record 34 for Horizon 3: (I8,8F8.0) HORIZN,THKNS,BD,THET0,AD,(1)DISP,ADL
+       31.50E+011.60E+008.40E-020.00E+000.00E+000.00E+00
+***____________
+*** Record 36 for Horizon 3: (8X,9F8.0)  (1)DWRATE,(1)DSRATE,(1)DGRATE
+        8.66E-028.66E-020.00E+00
+***____________
+*** Record 37 for Horizon 3: (8X,7F8.0) DPN,THEFC,THEWP,OC,(1)KDs
+        1.00E+008.40E-023.90E-023.20E-011.34E-01
+***____________
+*** Record 34 for Horizon 4: (I8,8F8.0) HORIZN,THKNS,BD,THET0,AD,(1)DISP,ADL
+       41.50E+011.60E+008.20E-020.00E+000.00E+000.00E+00
+***____________
+*** Record 36 for Horizon 4: (8X,9F8.0)  (1)DWRATE,(1)DSRATE,(1)DGRATE
+        8.66E-028.66E-020.00E+00
+***____________
+*** Record 37 for Horizon 4: (8X,7F8.0) DPN,THEFC,THEWP,OC,(1)KDs
+        1.00E+008.20E-023.70E-022.40E-011.01E-01
+***____________
+*** Record 34 for Horizon 5: (I8,8F8.0) HORIZN,THKNS,BD,THET0,AD,(1)DISP,ADL
+       53.00E+011.60E+008.20E-020.00E+000.00E+000.00E+00
+***____________
+*** Record 36 for Horizon 5: (8X,9F8.0)  (1)DWRATE,(1)DSRATE,(1)DGRATE
+        4.33E-024.33E-020.00E+00
+***____________
+*** Record 37 for Horizon 5: (8X,7F8.0) DPN,THEFC,THEWP,OC,(1)KDs
+        1.00E+008.20E-023.50E-022.00E-018.40E-02
+***____________
+*** Record 34 for Horizon 6: (I8,8F8.0) HORIZN,THKNS,BD,THET0,AD,(1)DISP,ADL
+       61.50E+011.60E+008.00E-020.00E+000.00E+000.00E+00
+***____________
+*** Record 36 for Horizon 6: (8X,9F8.0)  (1)DWRATE,(1)DSRATE,(1)DGRATE
+        4.33E-024.33E-020.00E+00
+***____________
+*** Record 37 for Horizon 6: (8X,7F8.0) DPN,THEFC,THEWP,OC,(1)KDs
+        1.00E+008.00E-023.40E-021.50E-016.30E-02
+***____________
+*** Record 34 for Horizon 7: (I8,8F8.0) HORIZN,THKNS,BD,THET0,AD,(1)DISP,ADL
+       73.00E+011.60E+007.70E-020.00E+000.00E+000.00E+00
+***____________
+*** Record 36 for Horizon 7: (8X,9F8.0)  (1)DWRATE,(1)DSRATE,(1)DGRATE
+        2.89E-022.89E-020.00E+00
+***____________
+*** Record 37 for Horizon 7: (8X,7F8.0) DPN,THEFC,THEWP,OC,(1)KDs
+        1.00E+007.70E-023.40E-021.20E-015.00E-02
+***____________
+*** Record 34 for Horizon 8: (I8,8F8.0) HORIZN,THKNS,BD,THET0,AD,(1)DISP,ADL
+       81.50E+011.60E+007.60E-020.00E+000.00E+000.00E+00
+***____________
+*** Record 36 for Horizon 8: (8X,9F8.0)  (1)DWRATE,(1)DSRATE,(1)DGRATE
+        2.89E-022.89E-020.00E+00
+***____________
+*** Record 37 for Horizon 8: (8X,7F8.0) DPN,THEFC,THEWP,OC,(1)KDs
+        1.00E+007.60E-023.30E-021.30E-015.50E-02
+***____________
+*** Record 34 for Horizon 9: (I8,8F8.0) HORIZN,THKNS,BD,THET0,AD,(1)DISP,ADL
+       91.50E+011.60E+008.10E-020.00E+000.00E+000.00E+00
+***____________
+*** Record 36 for Horizon 9: (8X,9F8.0)  (1)DWRATE,(1)DSRATE,(1)DGRATE
+        2.89E-022.89E-020.00E+00
+***____________
+*** Record 37 for Horizon 9: (8X,7F8.0) DPN,THEFC,THEWP,OC,(1)KDs
+        1.00E+008.10E-023.60E-022.30E-019.70E-02
+***____________
+*** Record 34 for Horizon 10: (I8,8F8.0) HORIZN,THKNS,BD,THET0,AD,(1)DISP,ADL
+      105.00E+011.60E+008.10E-020.00E+000.00E+000.00E+00
+***____________
+*** Record 36 for Horizon 10: (8X,9F8.0)  (1)DWRATE,(1)DSRATE,(1)DGRATE
+        2.89E-022.89E-020.00E+00
+***____________
+*** Record 37 for Horizon 10: (8X,7F8.0) DPN,THEFC,THEWP,OC,(1)KDs
+        1.00E+008.10E-023.60E-022.30E-019.70E-02
+***____________
+*** Record 34 for Horizon 11: (I8,8F8.0) HORIZN,THKNS,BD,THET0,AD,(1)DISP,ADL
+      111.80E+021.60E+008.10E-020.00E+000.00E+000.00E+00
+***____________
+*** Record 36 for Horizon 11: (8X,9F8.0)  (1)DWRATE,(1)DSRATE,(1)DGRATE
+        2.89E-022.89E-020.00E+00
+***____________
+*** Record 37 for Horizon 11: (8X,7F8.0) DPN,THEFC,THEWP,OC,(1)KDs
+        2.00E+008.10E-023.60E-022.30E-019.70E-02
+***____________
+*** Record 40: (2I8) ILP; CFLAG (blank if ILP=0)
+       0       0
+***____________
+*** Record 42: (3(4X,A4,4X,A4,I8),I4) ITEM1,STEP1,LFREQ1,ITEM2,STEP2,LFREQ2,ITEM3,STEP3,LFREQ3,EXMFLG
+    WATR    YEAR       1    PEST    YEAR       1    CONC     DAY       1   0
+***____________
+*** Record 45: NPLOTS (number of time series variables,STEP4
+       8     DAY
+***____________
+*** Records 46: Plotting variables
+    TCON1   TAVE   1 105    1.E3
+    TCON1   TAVE 106 120    1.E3
+    TCON1   TAVE 121 135    1.E3
+    TCON1   TAVE 136 150    1.E3
+    TCON1   TAVE 151 165    1.E3
+    TCON1   TAVE 166 180    1.E3
+    DLYS1   TAVE 166 195    1.E3
+    DLYS1   TAVE 256 285    1.E3

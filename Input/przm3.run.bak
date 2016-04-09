@@ -1,0 +1,28 @@
+PRZM                    ON
+VADOFT                  OFF
+MONTE CARLO             OFF
+TRANSPORT               ON
+*** zone records
+PRZM ZONES              1
+ENDRUN
+*** input file records
+  PATH                  .\
+  METEOROLOGY       1   GA1LEVAP.MET  
+  PATH                  .\
+  PRZM INPUT        1   GA1L_2PA.INP
+*** output file records
+  PATH                  .\
+  TIME SERIES       1   GA1L_2PA.ZTS
+  PRZM OUTPUT       1   GA1L_2PA.OUT
+*** scratch file records
+  PATH                  .\
+  PRZM RESTART          RESTART.PRZ
+ENDFILES
+*** global records
+  START DATE            010192
+  END DATE              311293
+NUMBER OF CHEMICALS     1
+ENDDATA
+*** display records
+ECHO                    8
+TRACE                   ON

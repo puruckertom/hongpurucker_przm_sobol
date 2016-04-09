@@ -1,0 +1,44 @@
+ *******************************************************************************
+     Pesticide Root Zone Model (PRZM)
+     Release 3.12.3 (May 2006)
+    
+     For technical support contact:
+        Center for Exposure Assessment Modeling (CEAM)
+        National Exposure Research Laboratory - Ecosystems Research Division
+        Office of Research and Development (ORD)
+        U.S. Environmental Protection Agency (U.S. EPA)
+        960 College Station Road
+        Athens, Georgia (GA) 30605-2700
+    
+        Voice: (706) 355-8400
+        Fax: (706) 355-8302
+        Web: http://www.epa.gov/ceampubl/
+        E-mail: ceam@epamail.epa.gov
+    
+ *******************************************************************************
+ Selected options:
+
+ Number of PRZM zones.........................................................1  
+ Number of VADOFT zones.......................................................1  
+ Monte Carlo................................................................OFF  
+ PRZM........................................................................ON  
+ VADOFT.....................................................................OFF  
+ Transport simulation........................................................ON  
+ 
+ Files:
+
+ METEOROLOGY FILE for ZONE [ 1] uses UNIT [32]....................\GA1LEVAP.MET  
+ PRZM INPUT FILE for ZONE [ 1] uses UNIT [33].....................\GA1L_2PA.INP  
+ TIME SERIES FILE uses UNIT [34]..................................\GA1L_2PA.ZTS  
+ PRZM OUTPUT FILE for ZONE [ 1] uses UNIT [35]....................\GA1L_2PA.OUT  
+ PRZM RESTART FILE for ZONE [ 1] uses UNIT [36]....................\RESTART.PRZ  
+ 
+ Global data:
+
+ Start of simulation....................................................1/ 1/92  
+ End of simulation.....................................................31/12/93  
+ Number of chemicals..........................................................1  
+ Total days:    731    Time steps:  24
+
+ One PRZM will contribute 100% of the flux to one VADOFT
+                                                                              
